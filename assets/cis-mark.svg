@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cis-ring-a" x1="8" y1="12" x2="56" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5544F5"/>
+      <stop offset="100%" stop-color="#477BFF"/>
+    </linearGradient>
+    <linearGradient id="cis-core" x1="22" y1="22" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E2B58"/>
+      <stop offset="100%" stop-color="#080D22"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="32" rx="25" ry="11.5" transform="rotate(-32 32 32)" stroke="url(#cis-ring-a)" stroke-width="3.25"/>
+  <ellipse cx="32" cy="32" rx="25" ry="11.5" transform="rotate(32 32 32)" stroke="url(#cis-ring-a)" stroke-width="3.25" stroke-opacity="0.72"/>
+  <circle cx="32" cy="32" r="9.5" fill="url(#cis-core)"/>
+  <circle cx="29" cy="29" r="2.6" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="51.5" cy="19.5" r="3.4" fill="#5544F5"/>
+  <circle cx="13" cy="44" r="2.8" fill="#477BFF"/>
+</svg>
+

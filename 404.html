@@ -3,19 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
+  <meta name="color-scheme" content="light">
   <title>Page Not Found | Cyber Info Space</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/cis-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="container hero">
-    <p class="eyebrow">404 • Not Found</p>
-    <h1>Page not found</h1>
-    <p class="hero-copy">The requested page does not exist on the Cyber Info Space GitHub Index.</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="/">Return to CIS Index</a>
-      <a class="btn btn-secondary" href="https://github.com/cyberinfospace" rel="noopener noreferrer">GitHub Profile</a>
+  <header class="site-header is-wide">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Cyber Info Space home">
+        <img class="brand-mark" src="/assets/cis-mark.svg" width="32" height="32" alt="">
+        <span class="brand-wordmark">CYBER INFO SPACE</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="https://github.com/cyberinfospace" rel="noopener noreferrer">GitHub</a></li>
+          <li class="nav-cta-item">
+            <a class="nav-cta" href="https://www.cyberinfospace.com" rel="noopener noreferrer">Official Website</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container not-found-main">
+    <div class="not-found-card">
+      <p class="eyebrow">
+        <span class="eyebrow-line" aria-hidden="true"></span>
+        <span>404 — Route Not Found</span>
+      </p>
+      <h1>This page isn’t in orbit.</h1>
+      <p class="section-copy">
+        The requested address does not exist on Cyber Info Space’s GitHub Pages portal. Return to the main index or explore public repositories on GitHub.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/">Return to CIS Home</a>
+        <a class="btn btn-secondary" href="https://github.com/cyberinfospace" rel="noopener noreferrer">GitHub Profile</a>
+      </div>
     </div>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-group">
+        <a class="footer-brand" href="/">
+          <span>CYBER INFO SPACE</span>
+        </a>
+        <span class="footer-divider" aria-hidden="true"></span>
+        <p class="footer-tagline">Engineering a smarter, more connected digital future.</p>
+      </div>
+      <p class="footer-copy">&copy; Cyber Info Space.</p>
+    </div>
+  </footer>
 </body>
 </html>
