@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Cyber Info Space | Official GitHub Index</title>
+  <meta name="description" content="Official GitHub Index for Cyber Info Space (CIS) — projects, tools, and research across AI, ML, Cloud, and Cybersecurity.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-heading" class="skip-link visually-hidden">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">CIS</span>
+        <div>
+          <p class="brand-name">CYBER INFO SPACE</p>
+          <p class="brand-sub">Official GitHub Index</p>
+        </div>
+      </div>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="https://www.cyberinfospace.com" rel="noopener noreferrer">Website</a></li>
+          <li><a href="https://github.com/cyberinfospace" rel="noopener noreferrer">GitHub Profile</a></li>
+          <li><a href="https://github.com/cyberinfospace?tab=repositories" rel="noopener noreferrer">All Repos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="main-heading">
+      <p class="eyebrow">AI • ML • Cloud • Cybersecurity</p>
+      <h1 id="main-heading" tabindex="-1">Explore Cyber Info Space Projects</h1>
+      <p class="hero-copy">
+        Central index for public tools, open-source initiatives, and engineering platforms built by Cyber Info Space.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/cyberinfospace" rel="noopener noreferrer">View GitHub Profile</a>
+        <a class="btn btn-secondary" href="https://www.cyberinfospace.com" rel="noopener noreferrer">Visit cyberinfospace.com</a>
+      </div>
+    </section>
+
+    <section class="directory" aria-labelledby="directory-heading">
+      <div class="directory-header">
+        <h2 id="directory-heading">Project Directory</h2>
+        <p id="results-status" class="results-status" aria-live="polite">Loading projects...</p>
+      </div>
+
+      <div class="controls">
+        <div class="search-field">
+          <label for="project-search">Search projects</label>
+          <input
+            id="project-search"
+            type="search"
+            autocomplete="off"
+            placeholder="Filter by name, summary, or tag..."
+            aria-describedby="search-hint">
+          <span id="search-hint" class="hint">Matches project titles, descriptions, and tags.</span>
+        </div>
+
+        <div class="tag-bar" role="group" aria-label="Filter by tag" id="tag-filters">
+          <button type="button" class="tag-btn" data-tag="all" aria-pressed="true">All</button>
+        </div>
+      </div>
+
+      <ul class="project-grid" id="project-grid"></ul>
+      <p id="empty-state" class="empty-state" hidden>No matching public projects found.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>CYBER INFO SPACE (CIS)</strong> — Tech Exploration &amp; Innovation</p>
+      <p>
+        <a href="https://www.cyberinfospace.com" rel="noopener noreferrer">cyberinfospace.com</a>
+        <span aria-hidden="true"> • </span>
+        <a href="https://github.com/cyberinfospace" rel="noopener noreferrer">@cyberinfospace</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

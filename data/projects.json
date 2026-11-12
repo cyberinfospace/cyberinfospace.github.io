@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "id": "CIS-003",
+      "slug": "cis-index",
+      "name": "CIS Official GitHub Index",
+      "repo": "cyberinfospace/cyberinfospace.github.io",
+      "repo_url": "https://github.com/cyberinfospace/cyberinfospace.github.io",
+      "url": "https://cyberinfospace.github.io",
+      "status": "active",
+      "tags": [
+        "web",
+        "portal",
+        "index"
+      ],
+      "summary": "Official Cyber Info Space GitHub Pages index portal for exploring public projects, tools, and research."
+    }
+  ]
+}
