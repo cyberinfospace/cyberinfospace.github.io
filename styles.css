@@ -674,8 +674,8 @@
     block-size: auto;
     aspect-ratio: 5 / 4;
     object-fit: cover;
-    -webkit-mask-image: radial-gradient(ellipse 68% 68% at 50% 48%, #000 56%, transparent 96%);
-    mask-image: radial-gradient(ellipse 68% 68% at 50% 48%, #000 56%, transparent 96%);
+    -webkit-mask-image: radial-gradient(ellipse 65% 65% at 50% 48%, #000 50%, transparent 92%);
+    mask-image: radial-gradient(ellipse 65% 65% at 50% 48%, #000 50%, transparent 92%);
   }
 
   @media (prefers-reduced-motion: no-preference) {
